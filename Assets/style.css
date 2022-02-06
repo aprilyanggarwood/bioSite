@@ -102,15 +102,28 @@ p:before {
     left: 480px;
     right: 0;
   font-size: 50px;
-  font-family: "Libre Baskerville",
+font-family: "Libre Baskerville",
+serif;
   serif;
   color:#66188B;
+  bottom: -500px;
 
 }
-p:before {
-    top: 50px;
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
-p:after {
-    bottom: -500px;
+.footerp {
+    padding: 5px 0;
+    color: block;
+    background-color: #C4C4C4;
+    font-size: small;
+    font-family: "Libre Baskerville",
+    serif;
+
 }
