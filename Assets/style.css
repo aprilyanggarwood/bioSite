@@ -91,4 +91,26 @@ margin-top: 30px;
 }
 
 
+.some-item:after {
+    content: url('https://api.iconify.design/fa-solid/home.svg?color=%23ba3329&height=16');
+}
 
+p:after,
+p:before {
+    content: 'Ross Garwood';
+    position: absolute;
+    left: 480px;
+    right: 0;
+  font-size: 50px;
+  font-family: "Libre Baskerville",
+  serif;
+  color:#66188B;
+
+}
+p:before {
+    top: 50px;
+}
+
+p:after {
+    bottom: -500px;
+}
