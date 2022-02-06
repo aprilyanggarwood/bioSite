@@ -4,5 +4,5 @@
 
 ## Contributors
 
-- Instructor's name
-- April Yang
+- Instructor: Robert Kumar
+- Contributor: April Yang
