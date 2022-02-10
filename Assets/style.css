@@ -49,6 +49,16 @@ h2 {
 
 }
 
+h1{
+
+font-family: "Libre Baskerville",
+serif;
+ color: #66188B;
+ margin-top: 35px;
+ text-align: center;
+
+}
+
 /* h2:hover {
     background-color: darkkhaki;
 
