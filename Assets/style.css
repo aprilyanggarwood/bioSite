@@ -170,6 +170,20 @@ top: -180px;
   
 }
 
+@media (max-width: 768px) {
+    #bowtieimg { 
+        height: auto;
+        width: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    #hobby_page p {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+
 #washcarimg {
     width: 100%;  
     border-radius: 10px;
@@ -203,6 +217,22 @@ serif;
 text-align: left;
 }
 
+@media (max-width: 768px) {
+    #slogan{ 
+        margin-bottom: 4em;
+        text-align: center;
+    }
+
+    .large-first {
+        order: 1;
+    }
+
+    .large-second {
+        order: 0;
+    }
+
+}
+
 #p-washcarimg {
     text-align: left;
     padding-left: 10px;
@@ -218,7 +248,9 @@ text-align: left;
     font-size: medium;
     font-family: Arial;
     font-weight: bold;
-
+    padding-left: 4em;
+    padding-right: 4em;
+    min-width: 450px;
 }
 
 .p2 {
@@ -361,12 +393,15 @@ a#linkedin img {
 position: relative;
 top: -170px;
 
+
 }
 
 .img2 {
 position: relative;
 top: -170px;
-
+width: 450px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .fa-linkedin {
